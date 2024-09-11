@@ -1,0 +1,17 @@
+// Connect to the server
+// connection.connect((err) => {
+//     if (err) {
+//       // Return error if present
+//       console.log("Error occurred", err);
+//     } else {
+//       // Create database
+//       console.log("Connected to MySQL Server");
+//       const query = "CREATE DATABASE aanvraagSysteem";
+//       connection.query(query, function (err, result) {
+//         if (err) {
+//           err;
+//         }
+//         console.log("New database created");
+//       });
+//     }
+// });
